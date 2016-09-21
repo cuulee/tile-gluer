@@ -42,3 +42,11 @@ For an usage message, run without parameters o with help:
     node tileGluer H images_out/ images_out/ output_{x}.png output_final_{x}.png 3 6
 
     node tileGluer H images_out/ images_out/ output_final_{x}.png output_total_{x}.png 2 2
+
+
+## Demo
+Using the demo images that are in the folder images_in
+
+    node tileGluer V images_in/ images_out/ ppp_TN_x{x}y{y}.png output_{x}.png 3 95 26 87 16
+    node tileGluer H images_out/ images_out/ output_{x}.png output_final_{x}.png 4 26 26 16 16
+    node tileGluer H images_out/ images_out/ output_final_{x}.png output_total_{x}.png 3 19 19 16 16
