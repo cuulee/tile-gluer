@@ -29,13 +29,13 @@ Install its dependencies with npm:
     npm install
 
 
-For an usage message, run without parameters o with help:
+For an usage message, run without parameters or with help:
 
     node tileGluer
     node tileGluer help
 
 
-To generate the total mosaic, you must first generate the vertical strips and then joining these vertical strips.
+To generate the total mosaic, you must first generate the vertical strips (V) and then join these vertical strips (H).
 
 ## Examples
     node tileGluer V images_in/ images_out/ ppp_TN_x{x}y{y}.png output_{x}.png 3 9
@@ -48,7 +48,7 @@ To generate the total mosaic, you must first generate the vertical strips and th
 
 
 ## Demo
-Using the demo images that are in the folder images_in
+Use demo images in folder images_in
 
     node tileGluer V images_in/ images_out/ ppp_TN_x{x}y{y}.png output_{x}.png 3 95 26 87 16
     node tileGluer H images_out/ images_out/ output_{x}.png output_final_{x}.png 4 26 26 16 16
